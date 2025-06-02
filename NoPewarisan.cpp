@@ -7,3 +7,10 @@ class baseClass final{
             cout << "Halo saya function dari base class";
         }
 };
+
+class derivedClass : public baseClass{
+    public:
+        void perkenalan(){
+            cout << "Halo saya fungsi dari derived class";
+        }
+};
