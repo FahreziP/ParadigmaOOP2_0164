@@ -18,7 +18,10 @@ class joko :public kamu{
 };
 
 class lia :public kamu{
-
+    public:
+        void pesan(){
+            cout << "Pesan dari Lia" << endl;
+        }
 };
 
 int main (){
