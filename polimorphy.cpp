@@ -11,7 +11,10 @@ class kamu{
 };
 
 class joko :public kamu{
-
+    public:
+    void pesan(){
+        cout << "Pesan dari joko" << endl;
+    }
 };
 
 int main (){
