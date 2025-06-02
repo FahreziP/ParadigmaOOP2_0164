@@ -10,6 +10,9 @@ class kamu{
     }
 };
 
+class joko :public kamu{
+
+};
 
 int main (){
 
