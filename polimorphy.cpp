@@ -17,6 +17,10 @@ class joko :public kamu{
     }
 };
 
+class lia :public kamu{
+
+};
+
 int main (){
 
 }
