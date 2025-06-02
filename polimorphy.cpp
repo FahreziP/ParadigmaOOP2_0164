@@ -25,5 +25,17 @@ class lia :public kamu{
 };
 
 int main (){
+    kamu* object;
+    joko a;
+    lia b;
 
+    object = &a;
+    object->pesan();
+    object = &b;
+    object->pesan();
+
+    // a.seseorang::pesan();
+    // b.seseorang::pesan();
+
+    return 0;
 }
